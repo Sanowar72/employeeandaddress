@@ -1,48 +1,43 @@
-# UniversityEventManagmentApplication
+# WmployeeManagmentApplication
 
 ## Framework and Language used
 * Springboot
 * Java
 
 ## Project Summary
-* This is a SpringBoot-based project for managing Student and Events, with endpoints for adding, retrieving, updating, and deleting information.
+* This is a SpringBoot-based project for managing employee and address, with endpoints for adding, retrieving, updating, and deleting information.
 
-## Student attributes
-* studentId
+## Employee attributes
+* employeetId
 * firstName
 * lastName
-* age
-* department
+* address
 
-## Event attributes
-* eventId
-* eventName
-* locationOfEvent
-* date
-* startTime
-* endTime
+## Address attributes
+* addressId
+* street
+* city
+* state
+* zip code
+* employee
 
 ## controller
-* StudentController
-* EventController
+* Employee Controller
+* Address Controller
 
 ## Service
-* StudentService
-* EventService
+* EmployeeService
+* AddressService
 
 ## Model
-* Student
-* Event
+* Employee
+* Address
 
 ## Repository
-* StudentRepository
-* EventRepository
+* EmployeeRepository
+* AddressRepository
 * Used CrudRepository and Custom Query method
 
 ## Data Structure used
 * ArrayList
 
-## Validation
-* First character of first name should be capital.
-* All characters of last name must be alphabets
-* Age must be between 18 to 25.
